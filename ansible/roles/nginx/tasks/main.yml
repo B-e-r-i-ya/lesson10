@@ -26,3 +26,12 @@
    - reload nginx
   tags:
    - nginx-configuration
+
+#- name: NGINX | Create Index file
+#  template:
+#   src: index.html.j2
+#   dest: /usr/share/nginx/html/index.html
+#  notify:
+#   - reload nginx
+#  tags:
+#   - nginx-index
